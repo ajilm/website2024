@@ -1,0 +1,26 @@
+[22-Nov-2024 18:28:14 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 115343576 bytes) in C:\Users\ajilk\Local Sites\mytravel\app\public\wp-content\themes\mytravel\functions.php on line 200
+[22-Nov-2024 18:29:19 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 115343576 bytes) in C:\Users\ajilk\Local Sites\mytravel\app\public\wp-content\themes\mytravel\functions.php on line 197
+[22-Nov-2024 18:33:24 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 115343576 bytes) in C:\Users\ajilk\Local Sites\mytravel\app\public\wp-content\themes\mytravel\functions.php on line 197
+[23-Nov-2024 09:54:59 UTC] Automatic updates starting...
+[23-Nov-2024 09:55:00 UTC] Automatic updates complete.
+[24-Nov-2024 16:56:51 UTC] Automatic updates starting...
+[24-Nov-2024 16:56:52 UTC] Automatic updates complete.
+[24-Nov-2024 16:59:04 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\ajilk\Local Sites\mytravel\app\public\wp-content\themes\mytravel\header.php:77
+Stack trace:
+#0 C:\Users\ajilk\Local Sites\mytravel\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\ajilk\Local Sites\mytravel\app\public\wp-includes\template.php(745): load_template('C:\\Users\\ajilk\\...', true, Array)
+#2 C:\Users\ajilk\Local Sites\mytravel\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\ajilk\Local Sites\mytravel\app\public\wp-content\themes\mytravel\templates\homepage.php(8): get_header()
+#4 C:\Users\ajilk\Local Sites\mytravel\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\ajilk\\...')
+#5 C:\Users\ajilk\Local Sites\mytravel\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ajilk\\...')
+#6 C:\Users\ajilk\Local Sites\mytravel\app\public\index.php(17): require('C:\\Users\\ajilk\\...')
+#7 {main}
+  thrown in C:\Users\ajilk\Local Sites\mytravel\app\public\wp-content\themes\mytravel\header.php on line 77
+[24-Nov-2024 17:08:47 UTC] PHP Warning:  Attempt to read property "items_wrap" on array in C:\Users\ajilk\Local Sites\mytravel\app\public\wp-content\themes\mytravel\inc\class-wp-bootstrap-navwalker.php on line 122
+[24-Nov-2024 17:08:47 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Users\ajilk\Local Sites\mytravel\app\public\wp-content\themes\mytravel\inc\class-wp-bootstrap-navwalker.php on line 122
+[24-Nov-2024 17:08:47 UTC] PHP Warning:  Attempt to read property "items_wrap" on array in C:\Users\ajilk\Local Sites\mytravel\app\public\wp-content\themes\mytravel\inc\class-wp-bootstrap-navwalker.php on line 122
+[24-Nov-2024 17:08:47 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Users\ajilk\Local Sites\mytravel\app\public\wp-content\themes\mytravel\inc\class-wp-bootstrap-navwalker.php on line 122
+[24-Nov-2024 17:08:47 UTC] PHP Warning:  Attempt to read property "items_wrap" on array in C:\Users\ajilk\Local Sites\mytravel\app\public\wp-content\themes\mytravel\inc\class-wp-bootstrap-navwalker.php on line 122
+[24-Nov-2024 17:08:47 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Users\ajilk\Local Sites\mytravel\app\public\wp-content\themes\mytravel\inc\class-wp-bootstrap-navwalker.php on line 122
+[24-Nov-2024 17:08:47 UTC] PHP Warning:  Attempt to read property "items_wrap" on array in C:\Users\ajilk\Local Sites\mytravel\app\public\wp-content\themes\mytravel\inc\class-wp-bootstrap-navwalker.php on line 122
+[24-Nov-2024 17:08:47 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Users\ajilk\Local Sites\mytravel\app\public\wp-content\themes\mytravel\inc\class-wp-bootstrap-navwalker.php on line 122
